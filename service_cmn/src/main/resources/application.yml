@@ -1,0 +1,15 @@
+server:
+  port: 8202
+
+spring:
+  application:
+    name: service-cmn
+#  profiles:
+#    active: dev
+
+# mysql数据库连接
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.44.165:3306/yygh_cmn?characterEncoding=utf-8&useSSL=false
